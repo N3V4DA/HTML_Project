@@ -4,50 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Najwydajniejsze Komputery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
         }
+
         header {
-            background-color: #333;
+            background: linear-gradient(90deg, #4CAF50, #2E7D32);
             color: white;
-            padding: 1em 0;
             text-align: center;
+            padding: 1.5em 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        nav {
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
         nav ul {
             list-style-type: none;
+            display: flex;
+            justify-content: center;
             margin: 0;
             padding: 0;
-            overflow: hidden;
-            background-color: #333;
         }
+
         nav ul li {
-            float: left;
+            margin: 0;
         }
+
         nav ul li a {
             display: block;
             color: white;
-            text-align: center;
-            padding: 14px 16px;
             text-decoration: none;
+            padding: 1em 1.5em;
+            transition: background 0.3s ease;
         }
+
         nav ul li a:hover {
-            background-color: #111;
+            background-color: #4CAF50;
         }
+
         main {
-            padding: 20px;
+            padding: 2em;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
         }
+
+        main h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1em;
+            color: #2E7D32;
+            font-weight: 500;
+        }
+
+        main p {
+            margin-bottom: 1.5em;
+        }
+
+        main ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        main ul li {
+            margin: 0.5em 0;
+            padding-left: 1em;
+            position: relative;
+        }
+
+        main ul li::before {
+            content: '\2022';
+            color: #4CAF50;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 1em 0;
+            margin-top: 2em;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li a {
+                text-align: center;
+            }
+
+            main {
+                padding: 1.5em;
+            }
+
+            main h2 {
+                font-size: 1.5rem;
+            }
         }
     </style>
 </head>
@@ -70,26 +149,10 @@
     </nav>
     <main>
         <h2>Najwydajniejsze komputery – Twoja przyszłość w zasięgu ręki</h2>
-        <p>W dobie dynamicznego rozwoju technologii, odpowiedni sprzęt komputerowy odgrywa kluczową rolę w życiu codziennym, biznesie i rozrywce. Nasza oferta najwydajniejszych komputerów to odpowiedź na potrzeby najbardziej wymagających użytkowników, którzy szukają niezawodności, prędkości i zaawansowanych rozwiązań technologicznych. Wybierz przyszłość już dziś i doświadcz, co oznacza prawdziwa moc obliczeniowa.
-            Komputery stworzone do najbardziej wymagających zadań
-            Nasze systemy komputerowe zostały zaprojektowane z myślą o różnych zastosowaniach. Od profesjonalistów pracujących w branży graficznej, filmowej i inżynieryjnej, po graczy oczekujących niezrównanej jakości i płynności rozgrywki. W naszej ofercie znajdziesz:<br>
-            •	Komputery dla kreatywnych profesjonalistów: Wyposażone w najnowsze procesory, wielordzeniowe jednostki oraz dedykowane karty graficzne, pozwalają na płynną pracę z najbardziej wymagającymi aplikacjami, takimi jak programy do edycji wideo, projektowania 3D czy analizy danych.<br>
-            •	Stacje gamingowe: Zbudowane z myślą o entuzjastach gier, zapewniają maksymalną wydajność i immersyjność. Obsługa najnowszych tytułów w rozdzielczości 4K, z najwyższymi ustawieniami graficznymi, staje się standardem.<br>
-            •	Rozwiązania biznesowe i serwerowe: Komputery przystosowane do pracy w środowisku korporacyjnym, gdzie liczy się bezpieczeństwo, niezawodność i wydajność. Idealne do przetwarzania dużych ilości danych czy hostowania aplikacji.<br>
-            Technologia, która robi różnicę
-            Wybierając nasze najwydajniejsze komputery, zyskujesz dostęp do najnowszych technologii, takich jak:<br>
-            •	Procesory nowej generacji: Wielordzeniowe układy, które pozwalają na jednoczesne wykonywanie wielu zadań z niespotykaną prędkością.<br>
-            •	Najnowocześniejsze karty graficzne: Dedykowane GPU zapewniające niezrównaną jakość obrazu, szybkość renderingu i wsparcie dla technologii ray tracing.<br>
-            •	Szybka pamięć RAM i magazyny danych: Moduły DDR5 i najszybsze dyski SSD NVMe sprawiają, że operacje na danych odbywają się w mgnieniu oka.<br>
-            •	Chłodzenie i energooszczędność: Zaawansowane systemy chłodzenia dbają o stabilność pracy nawet w najbardziej wymagających warunkach, a energooszczędne komponenty pozwalają zmniejszyć rachunki za prąd.<br>
-            Dlaczego warto nam zaufać?
-            Jako liderzy w branży, oferujemy produkty, które wyróżniają się jakością wykonania, niezawodnością oraz wsparciem technicznym na najwyższym poziomie. Każdy komputer w naszej ofercie przeszedł rygorystyczne testy jakości, dzięki czemu masz pewność, że otrzymujesz sprzęt, który sprosta Twoim oczekiwaniom.
-            Wybierz przyszłość już dziś
-            Nie czekaj na jutro, zainwestuj w technologie, które już dziś definiują standardy przyszłości. Odkryj naszą ofertę najwydajniejszych komputerów i dołącz do grona zadowolonych użytkowników, którzy cieszą się niezawodnością i prędkością w każdym aspekcie pracy i rozrywki.
-            </p>
+        <p>W dobie dynamicznego rozwoju technologii, odpowiedni sprzęt komputerowy odgrywa kluczową rolę w życiu codziennym, biznesie i rozrywce...</p>
     </main>
     <footer>
-        <p>&copy; 2025 Najwydajniejsze Komputery</p>
+        <p>&copy; 2025 Najwydajniejsze Komputery. Wszystkie prawa zastrzeżone.</p>
     </footer>
 </body>
 </html>
