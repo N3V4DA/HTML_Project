@@ -13,8 +13,7 @@ body {
 
 header {
     /*background: linear-gradient(90deg, #6366F1, #4F46E5);*/
-
-        .outlined-text {
+    .outlined-text {
         font-size: 50px; /* Rozmiar tekstu */
         font-weight: bold; /* Pogrubienie dla lepszego efektu */
         color: white; /* Kolor wypełnienia liter */
@@ -28,8 +27,7 @@ header {
             -2px  0px 0 black, /* Lewo */
              2px  0px 0 black; /* Prawo */
         text-align: center; /* Wyśrodkowanie tekstu */
-        margin: 50px;}
-
+    }
     /*color: red;
     text-align: center;
     padding: 2em 0;
