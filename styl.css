@@ -13,13 +13,25 @@ body {
 
 header {
     /*background: linear-gradient(90deg, #6366F1, #4F46E5);*/
-    color: red;
-    /*text-align: center;
-    padding: 2em 0;*/
-    border: 3px dashed red; /* Czerwona, przerywana linia */
-    padding: 10px; /* Dodanie przestrzeni wewnątrz obramowania */
-    display: inline-block;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    .outlined-text {
+        font-size: 50px; /* Rozmiar tekstu */
+        font-weight: bold; /* Pogrubienie dla lepszego efektu */
+        color: white; /* Kolor wypełnienia liter */
+        text-shadow: 
+            -2px -2px 0 black, /* Cień w górnym lewym rogu */
+             2px -2px 0 black, /* Cień w górnym prawym rogu */
+            -2px  2px 0 black, /* Cień w dolnym lewym rogu */
+             2px  2px 0 black, /* Cień w dolnym prawym rogu */
+             0px -2px 0 black, /* Góra */
+             0px  2px 0 black, /* Dół */
+            -2px  0px 0 black, /* Lewo */
+             2px  0px 0 black; /* Prawo */
+        text-align: center; /* Wyśrodkowanie tekstu */
+        margin: 50px;
+    /*color: red;*/
+    text-align: center;
+    padding: 2em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
 }
 
 header h1 {
