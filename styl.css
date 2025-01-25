@@ -13,9 +13,12 @@ body {
 
 header {
     /*background: linear-gradient(90deg, #6366F1, #4F46E5);*/
-    color: indigo;
-    text-align: center;
-    padding: 2em 0;
+    color: red;
+    /*text-align: center;
+    padding: 2em 0;*/
+    border: 3px dashed red; /* Czerwona, przerywana linia */
+    padding: 10px; /* Dodanie przestrzeni wewnątrz obramowania */
+    display: inline-block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
