@@ -85,7 +85,7 @@ main {
 main h2 {
     font-size: 2rem;
     margin-bottom: 1em;
-    color: #4F46E5;
+    color: indigo;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -109,7 +109,7 @@ main ul li {
 
 main ul li::before {
     content: '\2713';
-    color: #4F46E5;
+    color: indigo;
     font-weight: bold;
     position: absolute;
     left: 0;
