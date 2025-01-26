@@ -9,6 +9,16 @@ body {
     background-position: center; /* Wyśrodkowanie obrazu */
     background-repeat: no-repeat; /* Zapobieganie powielaniu obrazu */
     background-attachment: fixed;
+    .video-container {
+        display: flex; /* Ustawia filmy w jednym rzędzie */
+        justify-content: center; /* Centruje filmy poziomo */
+        gap: 20px; /* Odstęp między filmami */
+        padding: 20px;
+    }
+    iframe {
+        width: 45%; /* Każdy film zajmuje 45% szerokości kontenera */
+        height: 315px; /* Ustawiona wysokość filmu */
+    }
 }
 
 header {
