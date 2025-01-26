@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f3f4f6;
     color: #1f2937;
-    line-height: 0;
+    line-height: 1.6;
     background-size: cover; /* Dopasowanie obrazu do rozmiaru tła */
     background-position: center; /* Wyśrodkowanie obrazu */
     background-repeat: no-repeat; /* Zapobieganie powielaniu obrazu */
@@ -36,7 +36,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
